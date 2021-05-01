@@ -1,0 +1,2801 @@
+tnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+  body > footer .social {
+    margin-top: -0.5em; }
+
+/* sub page layout */
+/* line 349, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+aside {
+  padding: 0.5em 1em;
+  background: #eee; }
+  /* line 354, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+  aside h3:not(:first-child), aside h4:not(:first-child) {
+    margin: 0.5em 0; }
+  /* line 358, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+  aside > img {
+    margin: 0.5em 0; }
+  /* line 361, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+  aside .social {
+    margin-bottom: 1em; }
+  /* line 364, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+  aside ol.sections {
+    list-style: none;
+    margin-left: 0; }
+    /* line 367, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+    aside ol.sections li {
+      margin-bottom: 0.25em; }
+      /* line 369, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+      aside ol.sections li:last-child {
+        margin-bottom: 0; }
+
+/* XAMPP stamps table */
+/* line 379, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+table#stamps td:first-child {
+  border-right: 1px solid #ddd;
+  text-align: center; }
+
+/* social icons */
+/* line 388, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+.social {
+  margin-bottom: 0; }
+  /* line 392, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+  .social li {
+    display: inline-block;
+    margin-right: 5px; }
+    /* line 396, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+    .social li a {
+      display: block;
+      width: 25px;
+      height: 25px;
+      text-indent: -9999px;
+      background-image: url("/dashboard/images/social-icons.png"); }
+    /* line 403, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+    .social li.twitter a {
+      background-position: 0 0; }
+    /* line 406, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+    .social li.facebook a {
+      background-position: -25px 0; }
+    /* line 409, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+    .social li.google a {
+      background-position: -50px 0; }
+  /* line 414, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+  .social.large {
+    margin-bottom: 1em; }
+    /* line 418, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+    .social.large li a {
+      width: 70px;
+      height: 70px;
+      background-image: url("/dashboard/images/social-icons-large.png"); }
+    /* line 423, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+    .social.large li.twitter a {
+      background-position: 0 0; }
+    /* line 426, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+    .social.large li.facebook a {
+      background-position: -70px 0; }
+    /* line 429, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+    .social.large li.google a {
+      background-position: -140px 0; }
+
+/* tweet it form */
+/* line 438, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+form#tweet input, form#tweet textarea {
+  margin-bottom: 0; }
+
+/* downloads list */
+/* line 451, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+ul#downloads > li h3 img {
+  vertical-align: text-top;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px; }
+/* line 456, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+ul#downloads > li h3 span {
+  color: #777; }
+/* line 461, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+ul#downloads > li table {
+  margin-top: 1.5em; }
+  /* line 464, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+  ul#downloads > li table th {
+    text-align: left; }
+  /* line 470, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+  ul#downloads > li table td ul.inline-list li:last-child {
+    margin-right: 0; }
+  /* line 476, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+  ul#downloads > li table .button, ul#downloads > li table .sendgrid-subscription-widget input[type="submit"], .sendgrid-subscription-widget ul#downloads > li table input[type="submit"] {
+    margin: 0 0 5px 5px;
+    padding: 7px;
+    font-size: 0.9em; }
+    /* line 481, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+    ul#downloads > li table .button:last-child, ul#downloads > li table .sendgrid-subscription-widget input[type="submit"]:last-child, .sendgrid-subscription-widget ul#downloads > li table input[type="submit"]:last-child {
+      margin-bottom: 0; }
+/* line 488, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+ul#downloads > li ul.inline-list, ul#downloads > li ul.inline-list li {
+  margin-left: 0; }
+/* line 491, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+ul#downloads > li ul.inline-list li {
+  margin-right: 1em; }
+/* line 496, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+ul#downloads > li .notes {
+  max-width: 550px !important; }
+  /* line 500, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+  ul#downloads > li .notes p {
+    font-size: 0.8em;
+    color: #777;
+    margin-bottom: 0; }
+/* line 508, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+ul#downloads > li#download-windows p:last-child {
+  color: #777;
+  margin-top: 1em;
+  font-size: 0.8em; }
+
+/* line 518, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+ul#downloads > li table ul[id$="-download"], #download > div ul[id$="-download"] {
+  padding: 0 !important;
+  max-width: 50px !important;
+  text-align: center; }
+
+/* team images */
+/* line 529, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+body[class$="about"] dl dd img {
+  border: 1px solid #eee;
+  padding: 3px;
+  margin: 0 0 0.5em 0.5em; }
+
+/* line 537, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+#mailing-list {
+  margin-bottom: 0.5em; }
+  /* line 540, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+  #mailing-list input, #mailing-list a {
+    margin-bottom: 0; }
+
+/* line 545, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+#stack-list {
+  list-style: none;
+  margin-left: 0; }
+  /* line 550, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+  #stack-list li {
+    display: inline-block;
+    margin: 0 0 0.5em 0;
+    text-align: center; }
+    /* line 556, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+    #stack-list li a {
+      color: #2a5d84;
+      display: block;
+      min-height: 200px; }
+      /* line 561, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+      #stack-list li a span {
+        display: block; }
+        /* line 564, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+        #stack-list li a span.type {
+          font-size: 0.9em;
+          color: #777; }
+
+/* line 573, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+#theme-list {
+  list-style: none;
+  margin-left: 0; }
+  /* line 577, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+  #theme-list li {
+    margin-bottom: 1.5em !important; }
+    /* line 581, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+    #theme-list li h4 a {
+      color: inherit; }
+
+/* line 596, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+body.add-ons #theme-list {
+  margin-bottom: 2em; }
+/* line 599, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+body.add-ons aside ul {
+  margin-bottom: 0; }
+
+/* line 605, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+.button.icon img, .sendgrid-subscription-widget input.icon[type="submit"] img {
+  margin-right: 1em; }
+
+/* line 610, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+a#forum {
+  display: inline-block;
+  font-size: 1.4em;
+  color: #fb7a24; }
+  /* line 616, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+  a#forum img {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5em; }
+  /* line 621, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+  a#forum span {
+    display: block;
+    font-size: 0.7em;
+    color: #777;
+    text-align: right; }
+
+/* line 631, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+ol#articles li span {
+  font-size: 0.8em;
+  color: #777;
+  display: block; }
+
+/* line 640, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+.accordion dt {
+  border-bottom: 1px solid #ddd;
+  padding: 0.5em 0;
+  margin-bottom: 0;
+  font-size: 1.1em; }
+/* line 646, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+.accordion dd {
+  margin-top: 1em; }
+
+/* Sendgrid form */
+/* line 654, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+.sendgrid-subscription-widget label span {
+  display: none; }
+/* line 658, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+.sendgrid-subscription-widget label input {
+  margin: 0; }
+/* line 662, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+.sendgrid-subscription-widget input[type="submit"] {
+  text-transform: capitalize;
+  margin: 0; }
+/* line 667, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+.sendgrid-subscription-widget .response {
+  line-height: 1.5em; }
+
+/* Retina Overrides */
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+  /* line 680, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+  .social li a {
+    background-image: url("/dashboard/images/social-icons@2x.png");
+    background-size: auto 25px; }
+
+  /* line 684, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+  .social.large li a {
+    background-image: url("/dashboard/images/social-icons-large@2x.png");
+    background-size: auto 70px; } }
+/* import foundation last */
+/* line 287, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+meta.foundation-mq-small {
+  font-family: "/only screen and (max-width: 40em)/";
+  width: 0em; }
+
+/* line 292, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+meta.foundation-mq-medium {
+  font-family: "/only screen and (min-width:40.063em) and (max-width:64em)/";
+  width: 40.063em; }
+
+/* line 297, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+meta.foundation-mq-large {
+  font-family: "/only screen and (min-width:64.063em)/";
+  width: 64.063em; }
+
+/* line 302, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+meta.foundation-mq-xlarge {
+  font-family: "/only screen and (min-width:90.063em)/";
+  width: 90.063em; }
+
+/* line 307, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+meta.foundation-mq-xxlarge {
+  font-family: "/only screen and (min-width:120.063em)/";
+  width: 120.063em; }
+
+/* line 317, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 322, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+html,
+body {
+  font-size: 100%; }
+
+/* line 325, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+body {
+  background: #333333;
+  color: #555555;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default; }
+
+/* line 338, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+a:hover {
+  cursor: pointer; }
+
+/* line 343, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+img,
+object,
+embed {
+  max-width: 100%;
+  height: auto; }
+
+/* line 346, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+object,
+embed {
+  height: 100%; }
+
+/* line 347, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+img {
+  -ms-interpolation-mode: bicubic; }
+
+/* line 353, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+#map_canvas img,
+#map_canvas embed,
+#map_canvas object,
+.map_canvas img,
+.map_canvas embed,
+.map_canvas object {
+  max-width: none !important; }
+
+/* line 358, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+.left {
+  float: left !important; }
+
+/* line 359, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+.right, body[class$="about"] dl dd img {
+  float: right !important; }
+
+/* line 360, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+.clearfix, #breaking div, body[class$="about"] dl dd {
+  *zoom: 1; }
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+  .clearfix:before, #breaking div:before, body[class$="about"] dl dd:before, .clearfix:after, #breaking div:after, body[class$="about"] dl dd:after {
+    content: " ";
+    display: table; }
+  /* line 166, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+  .clearfix:after, #breaking div:after, body[class$="about"] dl dd:after {
+    clear: both; }
+
+/* line 361, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+.text-left {
+  text-align: left !important; }
+
+/* line 362, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+.text-right {
+  text-align: right !important; }
+
+/* line 363, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+.text-center {
+  text-align: center !important; }
+
+/* line 364, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+.text-justify {
+  text-align: justify !important; }
+
+/* line 365, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+.hide {
+  display: none; }
+
+/* line 371, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+.antialiased {
+  -webkit-font-smoothing: antialiased; }
+
+/* line 374, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+img {
+  display: inline-block;
+  vertical-align: middle; }
+
+/* line 384, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+textarea {
+  height: auto;
+  min-height: 50px; }
+
+/* line 387, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+select {
+  width: 100%; }
+
+/* line 190, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+.row, #stack-list, #theme-list li, ul#docs-list {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5rem;
+  *zoom: 1; }
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+  .row:before, #stack-list:before, #theme-list li:before, ul#docs-list:before, .row:after, #stack-list:after, #theme-list li:after, ul#docs-list:after {
+    content: " ";
+    display: table; }
+  /* line 166, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+  .row:after, #stack-list:after, #theme-list li:after, ul#docs-list:after {
+    clear: both; }
+  /* line 195, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .row.collapse > .column, .collapse#stack-list > .column, #theme-list li.collapse > .column, ul.collapse#docs-list > .column,
+  .row.collapse > .columns,
+  .collapse#stack-list > .columns,
+  #theme-list li.collapse > .columns,
+  ul.collapse#docs-list > .columns,
+  #stack-list .row.collapse > li,
+  .collapse#stack-list > li,
+  #theme-list #stack-list li.collapse > li,
+  #stack-list #theme-list li.collapse > li,
+  #theme-list li.collapse > div,
+  ul#docs-list.collapse > li {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    float: right; }
+  /* line 197, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .row.collapse .row, .collapse#stack-list .row, #theme-list li.collapse .row, ul.collapse#docs-list .row, .row.collapse #stack-list, .collapse#stack-list #stack-list, #theme-list li.collapse #stack-list, ul.collapse#docs-list #stack-list, .row.collapse #theme-list li, #theme-list .row.collapse li, .collapse#stack-list #theme-list li, #theme-list .collapse#stack-list li, #theme-list li.collapse li, ul.collapse#docs-list #theme-list li, #theme-list ul.collapse#docs-list li, .row.collapse ul#docs-list, .collapse#stack-list ul#docs-list, #theme-list li.collapse ul#docs-list, ul.collapse#docs-list ul#docs-list {
+    margin-left: 0;
+    margin-right: 0; }
+  /* line 200, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .row .row, #stack-list .row, #theme-list li .row, ul#docs-list .row, .row #stack-list, #stack-list #stack-list, #theme-list li #stack-list, ul#docs-list #stack-list, .row #theme-list li, #theme-list .row li, #stack-list #theme-list li, #theme-list #stack-list li, #theme-list li li, ul#docs-list #theme-list li, #theme-list ul#docs-list li, .row ul#docs-list, #stack-list ul#docs-list, #theme-list li ul#docs-list, ul#docs-list ul#docs-list {
+    width: auto;
+    margin-right: -0.9375rem;
+    margin-left: -0.9375rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: none;
+    *zoom: 1; }
+    /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+    .row .row:before, #stack-list .row:before, #theme-list li .row:before, ul#docs-list .row:before, .row #stack-list:before, #stack-list #stack-list:before, #theme-list li #stack-list:before, ul#docs-list #stack-list:before, .row #theme-list li:before, #theme-list .row li:before, #stack-list #theme-list li:before, #theme-list #stack-list li:before, #theme-list li li:before, ul#docs-list #theme-list li:before, #theme-list ul#docs-list li:before, .row ul#docs-list:before, #stack-list ul#docs-list:before, #theme-list li ul#docs-list:before, ul#docs-list ul#docs-list:before, .row .row:after, #stack-list .row:after, #theme-list li .row:after, ul#docs-list .row:after, .row #stack-list:after, #stack-list #stack-list:after, #theme-list li #stack-list:after, ul#docs-list #stack-list:after, .row #theme-list li:after, #theme-list .row li:after, #stack-list #theme-list li:after, #theme-list #stack-list li:after, #theme-list li li:after, ul#docs-list #theme-list li:after, #theme-list ul#docs-list li:after, .row ul#docs-list:after, #stack-list ul#docs-list:after, #theme-list li ul#docs-list:after, ul#docs-list ul#docs-list:after {
+      content: " ";
+      display: table; }
+    /* line 166, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+    .row .row:after, #stack-list .row:after, #theme-list li .row:after, ul#docs-list .row:after, .row #stack-list:after, #stack-list #stack-list:after, #theme-list li #stack-list:after, ul#docs-list #stack-list:after, .row #theme-list li:after, #theme-list .row li:after, #stack-list #theme-list li:after, #theme-list #stack-list li:after, #theme-list li li:after, ul#docs-list #theme-list li:after, #theme-list ul#docs-list li:after, .row ul#docs-list:after, #stack-list ul#docs-list:after, #theme-list li ul#docs-list:after, ul#docs-list ul#docs-list:after {
+      clear: both; }
+    /* line 201, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+    .row .row.collapse, #stack-list .row.collapse, #theme-list li .row.collapse, ul#docs-list .row.collapse, .row .collapse#stack-list, #stack-list .collapse#stack-list, #theme-list li .collapse#stack-list, ul#docs-list .collapse#stack-list, .row #theme-list li.collapse, #theme-list .row li.collapse, #stack-list #theme-list li.collapse, #theme-list #stack-list li.collapse, #theme-list li li.collapse, ul#docs-list #theme-list li.collapse, #theme-list ul#docs-list li.collapse, .row ul.collapse#docs-list, #stack-list ul.collapse#docs-list, #theme-list li ul.collapse#docs-list, ul#docs-list ul.collapse#docs-list {
+      width: auto;
+      margin: 0;
+      max-width: none;
+      *zoom: 1; }
+      /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+      .row .row.collapse:before, #stack-list .row.collapse:before, #theme-list li .row.collapse:before, ul#docs-list .row.collapse:before, .row .collapse#stack-list:before, #stack-list .collapse#stack-list:before, #theme-list li .collapse#stack-list:before, ul#docs-list .collapse#stack-list:before, .row #theme-list li.collapse:before, #theme-list .row li.collapse:before, #stack-list #theme-list li.collapse:before, #theme-list #stack-list li.collapse:before, #theme-list li li.collapse:before, ul#docs-list #theme-list li.collapse:before, #theme-list ul#docs-list li.collapse:before, .row ul.collapse#docs-list:before, #stack-list ul.collapse#docs-list:before, #theme-list li ul.collapse#docs-list:before, ul#docs-list ul.collapse#docs-list:before, .row .row.collapse:after, #stack-list .row.collapse:after, #theme-list li .row.collapse:after, ul#docs-list .row.collapse:after, .row .collapse#stack-list:after, #stack-list .collapse#stack-list:after, #theme-list li .collapse#stack-list:after, ul#docs-list .collapse#stack-list:after, .row #theme-list li.collapse:after, #theme-list .row li.collapse:after, #stack-list #theme-list li.collapse:after, #theme-list #stack-list li.collapse:after, #theme-list li li.collapse:after, ul#docs-list #theme-list li.collapse:after, #theme-list ul#docs-list li.collapse:after, .row ul.collapse#docs-list:after, #stack-list ul.collapse#docs-list:after, #theme-list li ul.collapse#docs-list:after, ul#docs-list ul.collapse#docs-list:after {
+        content: " ";
+        display: table; }
+      /* line 166, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+      .row .row.collapse:after, #stack-list .row.collapse:after, #theme-list li .row.collapse:after, ul#docs-list .row.collapse:after, .row .collapse#stack-list:after, #stack-list .collapse#stack-list:after, #theme-list li .collapse#stack-list:after, ul#docs-list .collapse#stack-list:after, .row #theme-list li.collapse:after, #theme-list .row li.collapse:after, #stack-list #theme-list li.collapse:after, #theme-list #stack-list li.collapse:after, #theme-list li li.collapse:after, ul#docs-list #theme-list li.collapse:after, #theme-list ul#docs-list li.collapse:after, .row ul.collapse#docs-list:after, #stack-list ul.collapse#docs-list:after, #theme-list li ul.collapse#docs-list:after, ul#docs-list ul.collapse#docs-list:after {
+        clear: both; }
+
+/* line 206, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+.column,
+.columns,
+#stack-list li,
+#theme-list li > div,
+ul#docs-list > li {
+  position: relative;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: right; }
+
+@media only screen {
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-push-1 {
+    position: relative;
+    right: 8.33333%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-pull-1 {
+    position: relative;
+    left: 8.33333%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-push-2 {
+    position: relative;
+    right: 16.66667%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-pull-2 {
+    position: relative;
+    left: 16.66667%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-push-3 {
+    position: relative;
+    right: 25%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-pull-3 {
+    position: relative;
+    left: 25%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-push-4 {
+    position: relative;
+    right: 33.33333%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-pull-4 {
+    position: relative;
+    left: 33.33333%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-push-5 {
+    position: relative;
+    right: 41.66667%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-pull-5 {
+    position: relative;
+    left: 41.66667%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-push-6 {
+    position: relative;
+    right: 50%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-pull-6 {
+    position: relative;
+    left: 50%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-push-7 {
+    position: relative;
+    right: 58.33333%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-pull-7 {
+    position: relative;
+    left: 58.33333%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-push-8 {
+    position: relative;
+    right: 66.66667%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-pull-8 {
+    position: relative;
+    left: 66.66667%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-push-9 {
+    position: relative;
+    right: 75%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-pull-9 {
+    position: relative;
+    left: 75%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-push-10 {
+    position: relative;
+    right: 83.33333%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-pull-10 {
+    position: relative;
+    left: 83.33333%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-push-11 {
+    position: relative;
+    right: 91.66667%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-pull-11 {
+    position: relative;
+    left: 91.66667%;
+    right: auto; }
+
+  /* line 157, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .column,
+  .columns,
+  #stack-list li,
+  #theme-list li > div,
+  ul#docs-list > li {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    float: right; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-1 {
+    position: relative;
+    width: 8.33333%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-2 {
+    position: relative;
+    width: 16.66667%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-3 {
+    position: relative;
+    width: 25%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-4 {
+    position: relative;
+    width: 33.33333%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-5 {
+    position: relative;
+    width: 41.66667%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-6, #stack-list li {
+    position: relative;
+    width: 50%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-7 {
+    position: relative;
+    width: 58.33333%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-8 {
+    position: relative;
+    width: 66.66667%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-9 {
+    position: relative;
+    width: 75%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-10 {
+    position: relative;
+    width: 83.33333%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-11 {
+    position: relative;
+    width: 91.66667%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-12 {
+    position: relative;
+    width: 100%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-offset-0 {
+    position: relative;
+    margin-right: 0%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-offset-1 {
+    position: relative;
+    margin-right: 8.33333%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-offset-2 {
+    position: relative;
+    margin-right: 16.66667%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-offset-3 {
+    position: relative;
+    margin-right: 25%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-offset-4 {
+    position: relative;
+    margin-right: 33.33333%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-offset-5 {
+    position: relative;
+    margin-right: 41.66667%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-offset-6 {
+    position: relative;
+    margin-right: 50%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-offset-7 {
+    position: relative;
+    margin-right: 58.33333%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-offset-8 {
+    position: relative;
+    margin-right: 66.66667%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-offset-9 {
+    position: relative;
+    margin-right: 75%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .small-offset-10 {
+    position: relative;
+    margin-right: 83.33333%; }
+
+  /* line 168, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  [class*="column"] + [class*="column"]:last-child {
+    float: left; }
+
+  /* line 169, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  [class*="column"] + [class*="column"].end {
+    float: right; }
+
+  /* line 172, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .column.small-centered,
+  .columns.small-centered,
+  #stack-list li.small-centered,
+  #theme-list li > div.small-centered,
+  ul#docs-list > li.small-centered {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    float: none !important; }
+
+  /* line 175, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .column.small-uncentered,
+  .columns.small-uncentered,
+  #stack-list li.small-uncentered,
+  #theme-list li > div.small-uncentered,
+  ul#docs-list > li.small-uncentered {
+    margin-right: 0;
+    margin-left: 0;
+    float: right !important; }
+
+  /* line 182, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .column.small-uncentered.opposite,
+  .columns.small-uncentered.opposite,
+  #stack-list li.small-uncentered.opposite,
+  #theme-list li > div.small-uncentered.opposite,
+  ul#docs-list > li.small-uncentered.opposite {
+    float: left !important; } }
+@media only screen and (min-width: 40.063em) {
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-push-1 {
+    position: relative;
+    right: 8.33333%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-pull-1 {
+    position: relative;
+    left: 8.33333%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-push-2 {
+    position: relative;
+    right: 16.66667%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-pull-2 {
+    position: relative;
+    left: 16.66667%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-push-3 {
+    position: relative;
+    right: 25%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-pull-3 {
+    position: relative;
+    left: 25%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-push-4 {
+    position: relative;
+    right: 33.33333%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-pull-4 {
+    position: relative;
+    left: 33.33333%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-push-5 {
+    position: relative;
+    right: 41.66667%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-pull-5 {
+    position: relative;
+    left: 41.66667%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-push-6 {
+    position: relative;
+    right: 50%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-pull-6 {
+    position: relative;
+    left: 50%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-push-7 {
+    position: relative;
+    right: 58.33333%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-pull-7 {
+    position: relative;
+    left: 58.33333%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-push-8 {
+    position: relative;
+    right: 66.66667%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-pull-8 {
+    position: relative;
+    left: 66.66667%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-push-9 {
+    position: relative;
+    right: 75%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-pull-9 {
+    position: relative;
+    left: 75%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-push-10 {
+    position: relative;
+    right: 83.33333%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-pull-10 {
+    position: relative;
+    left: 83.33333%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-push-11 {
+    position: relative;
+    right: 91.66667%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-pull-11 {
+    position: relative;
+    left: 91.66667%;
+    right: auto; }
+
+  /* line 157, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .column,
+  .columns,
+  #stack-list li,
+  #theme-list li > div,
+  ul#docs-list > li {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    float: right; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-1 {
+    position: relative;
+    width: 8.33333%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-2, #theme-list li > div.theme-icon {
+    position: relative;
+    width: 16.66667%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-3 {
+    position: relative;
+    width: 25%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-4 {
+    position: relative;
+    width: 33.33333%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-5 {
+    position: relative;
+    width: 41.66667%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-6 {
+    position: relative;
+    width: 50%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-7 {
+    position: relative;
+    width: 58.33333%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-8 {
+    position: relative;
+    width: 66.66667%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-9 {
+    position: relative;
+    width: 75%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-10, #theme-list li > div {
+    position: relative;
+    width: 83.33333%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-11 {
+    position: relative;
+    width: 91.66667%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-12 {
+    position: relative;
+    width: 100%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-offset-0 {
+    position: relative;
+    margin-right: 0%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-offset-1 {
+    position: relative;
+    margin-right: 8.33333%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-offset-2 {
+    position: relative;
+    margin-right: 16.66667%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-offset-3 {
+    position: relative;
+    margin-right: 25%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-offset-4 {
+    position: relative;
+    margin-right: 33.33333%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-offset-5 {
+    position: relative;
+    margin-right: 41.66667%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-offset-6 {
+    position: relative;
+    margin-right: 50%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-offset-7 {
+    position: relative;
+    margin-right: 58.33333%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-offset-8 {
+    position: relative;
+    margin-right: 66.66667%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-offset-9 {
+    position: relative;
+    margin-right: 75%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .medium-offset-10 {
+    position: relative;
+    margin-right: 83.33333%; }
+
+  /* line 168, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  [class*="column"] + [class*="column"]:last-child {
+    float: left; }
+
+  /* line 169, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  [class*="column"] + [class*="column"].end {
+    float: right; }
+
+  /* line 172, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .column.medium-centered,
+  .columns.medium-centered,
+  #stack-list li.medium-centered,
+  #theme-list li > div.medium-centered,
+  ul#docs-list > li.medium-centered {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    float: none !important; }
+
+  /* line 175, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .column.medium-uncentered,
+  .columns.medium-uncentered,
+  #stack-list li.medium-uncentered,
+  #theme-list li > div.medium-uncentered,
+  ul#docs-list > li.medium-uncentered {
+    margin-right: 0;
+    margin-left: 0;
+    float: right !important; }
+
+  /* line 182, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .column.medium-uncentered.opposite,
+  .columns.medium-uncentered.opposite,
+  #stack-list li.medium-uncentered.opposite,
+  #theme-list li > div.medium-uncentered.opposite,
+  ul#docs-list > li.medium-uncentered.opposite {
+    float: left !important; }
+
+  /* line 216, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .push-1 {
+    position: relative;
+    right: 8.33333%;
+    left: auto; }
+
+  /* line 219, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .pull-1 {
+    position: relative;
+    left: 8.33333%;
+    right: auto; }
+
+  /* line 216, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .push-2 {
+    position: relative;
+    right: 16.66667%;
+    left: auto; }
+
+  /* line 219, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .pull-2 {
+    position: relative;
+    left: 16.66667%;
+    right: auto; }
+
+  /* line 216, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .push-3 {
+    position: relative;
+    right: 25%;
+    left: auto; }
+
+  /* line 219, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .pull-3 {
+    position: relative;
+    left: 25%;
+    right: auto; }
+
+  /* line 216, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .push-4 {
+    position: relative;
+    right: 33.33333%;
+    left: auto; }
+
+  /* line 219, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .pull-4 {
+    position: relative;
+    left: 33.33333%;
+    right: auto; }
+
+  /* line 216, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .push-5 {
+    position: relative;
+    right: 41.66667%;
+    left: auto; }
+
+  /* line 219, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .pull-5 {
+    position: relative;
+    left: 41.66667%;
+    right: auto; }
+
+  /* line 216, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .push-6 {
+    position: relative;
+    right: 50%;
+    left: auto; }
+
+  /* line 219, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .pull-6 {
+    position: relative;
+    left: 50%;
+    right: auto; }
+
+  /* line 216, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .push-7 {
+    position: relative;
+    right: 58.33333%;
+    left: auto; }
+
+  /* line 219, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .pull-7 {
+    position: relative;
+    left: 58.33333%;
+    right: auto; }
+
+  /* line 216, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .push-8 {
+    position: relative;
+    right: 66.66667%;
+    left: auto; }
+
+  /* line 219, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .pull-8 {
+    position: relative;
+    left: 66.66667%;
+    right: auto; }
+
+  /* line 216, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .push-9 {
+    position: relative;
+    right: 75%;
+    left: auto; }
+
+  /* line 219, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .pull-9 {
+    position: relative;
+    left: 75%;
+    right: auto; }
+
+  /* line 216, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .push-10 {
+    position: relative;
+    right: 83.33333%;
+    left: auto; }
+
+  /* line 219, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .pull-10 {
+    position: relative;
+    left: 83.33333%;
+    right: auto; }
+
+  /* line 216, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .push-11 {
+    position: relative;
+    right: 91.66667%;
+    left: auto; }
+
+  /* line 219, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .pull-11 {
+    position: relative;
+    left: 91.66667%;
+    right: auto; } }
+@media only screen and (min-width: 64.063em) {
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-push-1 {
+    position: relative;
+    right: 8.33333%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-pull-1 {
+    position: relative;
+    left: 8.33333%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-push-2 {
+    position: relative;
+    right: 16.66667%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-pull-2 {
+    position: relative;
+    left: 16.66667%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-push-3 {
+    position: relative;
+    right: 25%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-pull-3 {
+    position: relative;
+    left: 25%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-push-4 {
+    position: relative;
+    right: 33.33333%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-pull-4 {
+    position: relative;
+    left: 33.33333%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-push-5 {
+    position: relative;
+    right: 41.66667%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-pull-5 {
+    position: relative;
+    left: 41.66667%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-push-6 {
+    position: relative;
+    right: 50%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-pull-6 {
+    position: relative;
+    left: 50%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-push-7 {
+    position: relative;
+    right: 58.33333%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-pull-7 {
+    position: relative;
+    left: 58.33333%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-push-8 {
+    position: relative;
+    right: 66.66667%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-pull-8 {
+    position: relative;
+    left: 66.66667%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-push-9 {
+    position: relative;
+    right: 75%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-pull-9 {
+    position: relative;
+    left: 75%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-push-10 {
+    position: relative;
+    right: 83.33333%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-pull-10 {
+    position: relative;
+    left: 83.33333%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-push-11 {
+    position: relative;
+    right: 91.66667%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-pull-11 {
+    position: relative;
+    left: 91.66667%;
+    right: auto; }
+
+  /* line 157, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .column,
+  .columns,
+  #stack-list li,
+  #theme-list li > div,
+  ul#docs-list > li {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    float: right; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-1 {
+    position: relative;
+    width: 8.33333%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-2 {
+    position: relative;
+    width: 16.66667%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-3, #stack-list li {
+    position: relative;
+    width: 25%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-4 {
+    position: relative;
+    width: 33.33333%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-5 {
+    position: relative;
+    width: 41.66667%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-6, ul#docs-list > li {
+    position: relative;
+    width: 50%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-7 {
+    position: relative;
+    width: 58.33333%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-8 {
+    position: relative;
+    width: 66.66667%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-9 {
+    position: relative;
+    width: 75%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-10 {
+    position: relative;
+    width: 83.33333%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-11 {
+    position: relative;
+    width: 91.66667%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-12 {
+    position: relative;
+    width: 100%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-offset-0 {
+    position: relative;
+    margin-right: 0%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-offset-1 {
+    position: relative;
+    margin-right: 8.33333%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-offset-2 {
+    position: relative;
+    margin-right: 16.66667%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-offset-3 {
+    position: relative;
+    margin-right: 25%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-offset-4 {
+    position: relative;
+    margin-right: 33.33333%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-offset-5 {
+    position: relative;
+    margin-right: 41.66667%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-offset-6 {
+    position: relative;
+    margin-right: 50%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-offset-7 {
+    position: relative;
+    margin-right: 58.33333%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-offset-8 {
+    position: relative;
+    margin-right: 66.66667%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-offset-9 {
+    position: relative;
+    margin-right: 75%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .large-offset-10 {
+    position: relative;
+    margin-right: 83.33333%; }
+
+  /* line 168, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  [class*="column"] + [class*="column"]:last-child {
+    float: left; }
+
+  /* line 169, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  [class*="column"] + [class*="column"].end {
+    float: right; }
+
+  /* line 172, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .column.large-centered,
+  .columns.large-centered,
+  #stack-list li.large-centered,
+  #theme-list li > div.large-centered,
+  ul#docs-list > li.large-centered {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    float: none !important; }
+
+  /* line 175, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .column.large-uncentered,
+  .columns.large-uncentered,
+  #stack-list li.large-uncentered,
+  #theme-list li > div.large-uncentered,
+  ul#docs-list > li.large-uncentered {
+    margin-right: 0;
+    margin-left: 0;
+    float: right !important; }
+
+  /* line 182, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .column.large-uncentered.opposite,
+  .columns.large-uncentered.opposite,
+  #stack-list li.large-uncentered.opposite,
+  #theme-list li > div.large-uncentered.opposite,
+  ul#docs-list > li.large-uncentered.opposite {
+    float: left !important; } }
+@media only screen and (min-width: 90.063em) {
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-push-1 {
+    position: relative;
+    right: 8.33333%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-pull-1 {
+    position: relative;
+    left: 8.33333%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-push-2 {
+    position: relative;
+    right: 16.66667%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-pull-2 {
+    position: relative;
+    left: 16.66667%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-push-3 {
+    position: relative;
+    right: 25%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-pull-3 {
+    position: relative;
+    left: 25%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-push-4 {
+    position: relative;
+    right: 33.33333%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-pull-4 {
+    position: relative;
+    left: 33.33333%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-push-5 {
+    position: relative;
+    right: 41.66667%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-pull-5 {
+    position: relative;
+    left: 41.66667%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-push-6 {
+    position: relative;
+    right: 50%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-pull-6 {
+    position: relative;
+    left: 50%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-push-7 {
+    position: relative;
+    right: 58.33333%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-pull-7 {
+    position: relative;
+    left: 58.33333%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-push-8 {
+    position: relative;
+    right: 66.66667%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-pull-8 {
+    position: relative;
+    left: 66.66667%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-push-9 {
+    position: relative;
+    right: 75%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-pull-9 {
+    position: relative;
+    left: 75%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-push-10 {
+    position: relative;
+    right: 83.33333%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-pull-10 {
+    position: relative;
+    left: 83.33333%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-push-11 {
+    position: relative;
+    right: 91.66667%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-pull-11 {
+    position: relative;
+    left: 91.66667%;
+    right: auto; }
+
+  /* line 157, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .column,
+  .columns,
+  #stack-list li,
+  #theme-list li > div,
+  ul#docs-list > li {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    float: right; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-1 {
+    position: relative;
+    width: 8.33333%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-2 {
+    position: relative;
+    width: 16.66667%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-3 {
+    position: relative;
+    width: 25%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-4 {
+    position: relative;
+    width: 33.33333%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-5 {
+    position: relative;
+    width: 41.66667%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-6 {
+    position: relative;
+    width: 50%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-7 {
+    position: relative;
+    width: 58.33333%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-8 {
+    position: relative;
+    width: 66.66667%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-9 {
+    position: relative;
+    width: 75%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-10 {
+    position: relative;
+    width: 83.33333%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-11 {
+    position: relative;
+    width: 91.66667%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-12 {
+    position: relative;
+    width: 100%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-offset-0 {
+    position: relative;
+    margin-right: 0%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-offset-1 {
+    position: relative;
+    margin-right: 8.33333%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-offset-2 {
+    position: relative;
+    margin-right: 16.66667%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-offset-3 {
+    position: relative;
+    margin-right: 25%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-offset-4 {
+    position: relative;
+    margin-right: 33.33333%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-offset-5 {
+    position: relative;
+    margin-right: 41.66667%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-offset-6 {
+    position: relative;
+    margin-right: 50%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-offset-7 {
+    position: relative;
+    margin-right: 58.33333%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-offset-8 {
+    position: relative;
+    margin-right: 66.66667%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-offset-9 {
+    position: relative;
+    margin-right: 75%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xlarge-offset-10 {
+    position: relative;
+    margin-right: 83.33333%; }
+
+  /* line 168, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  [class*="column"] + [class*="column"]:last-child {
+    float: left; }
+
+  /* line 169, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  [class*="column"] + [class*="column"].end {
+    float: right; }
+
+  /* line 172, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .column.xlarge-centered,
+  .columns.xlarge-centered,
+  #stack-list li.xlarge-centered,
+  #theme-list li > div.xlarge-centered,
+  ul#docs-list > li.xlarge-centered {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    float: none !important; }
+
+  /* line 175, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .column.xlarge-uncentered,
+  .columns.xlarge-uncentered,
+  #stack-list li.xlarge-uncentered,
+  #theme-list li > div.xlarge-uncentered,
+  ul#docs-list > li.xlarge-uncentered {
+    margin-right: 0;
+    margin-left: 0;
+    float: right !important; }
+
+  /* line 182, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .column.xlarge-uncentered.opposite,
+  .columns.xlarge-uncentered.opposite,
+  #stack-list li.xlarge-uncentered.opposite,
+  #theme-list li > div.xlarge-uncentered.opposite,
+  ul#docs-list > li.xlarge-uncentered.opposite {
+    float: left !important; } }
+@media only screen and (min-width: 120.063em) {
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-push-1 {
+    position: relative;
+    right: 8.33333%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-pull-1 {
+    position: relative;
+    left: 8.33333%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-push-2 {
+    position: relative;
+    right: 16.66667%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-pull-2 {
+    position: relative;
+    left: 16.66667%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-push-3 {
+    position: relative;
+    right: 25%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-pull-3 {
+    position: relative;
+    left: 25%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-push-4 {
+    position: relative;
+    right: 33.33333%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-pull-4 {
+    position: relative;
+    left: 33.33333%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-push-5 {
+    position: relative;
+    right: 41.66667%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-pull-5 {
+    position: relative;
+    left: 41.66667%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-push-6 {
+    position: relative;
+    right: 50%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-pull-6 {
+    position: relative;
+    left: 50%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-push-7 {
+    position: relative;
+    right: 58.33333%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-pull-7 {
+    position: relative;
+    left: 58.33333%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-push-8 {
+    position: relative;
+    right: 66.66667%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-pull-8 {
+    position: relative;
+    left: 66.66667%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-push-9 {
+    position: relative;
+    right: 75%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-pull-9 {
+    position: relative;
+    left: 75%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-push-10 {
+    position: relative;
+    right: 83.33333%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-pull-10 {
+    position: relative;
+    left: 83.33333%;
+    right: auto; }
+
+  /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-push-11 {
+    position: relative;
+    right: 91.66667%;
+    left: auto; }
+
+  /* line 151, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-pull-11 {
+    position: relative;
+    left: 91.66667%;
+    right: auto; }
+
+  /* line 157, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .column,
+  .columns,
+  #stack-list li,
+  #theme-list li > div,
+  ul#docs-list > li {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    float: right; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-1 {
+    position: relative;
+    width: 8.33333%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-2 {
+    position: relative;
+    width: 16.66667%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-3 {
+    position: relative;
+    width: 25%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-4 {
+    position: relative;
+    width: 33.33333%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-5 {
+    position: relative;
+    width: 41.66667%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-6 {
+    position: relative;
+    width: 50%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-7 {
+    position: relative;
+    width: 58.33333%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-8 {
+    position: relative;
+    width: 66.66667%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-9 {
+    position: relative;
+    width: 75%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-10 {
+    position: relative;
+    width: 83.33333%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-11 {
+    position: relative;
+    width: 91.66667%; }
+
+  /* line 161, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-12 {
+    position: relative;
+    width: 100%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-offset-0 {
+    position: relative;
+    margin-right: 0%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-offset-1 {
+    position: relative;
+    margin-right: 8.33333%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-offset-2 {
+    position: relative;
+    margin-right: 16.66667%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-offset-3 {
+    position: relative;
+    margin-right: 25%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-offset-4 {
+    position: relative;
+    margin-right: 33.33333%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-offset-5 {
+    position: relative;
+    margin-right: 41.66667%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-offset-6 {
+    position: relative;
+    margin-right: 50%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-offset-7 {
+    position: relative;
+    margin-right: 58.33333%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-offset-8 {
+    position: relative;
+    margin-right: 66.66667%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-offset-9 {
+    position: relative;
+    margin-right: 75%; }
+
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .xxlarge-offset-10 {
+    position: relative;
+    margin-right: 83.33333%; }
+
+  /* line 168, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  [class*="column"] + [class*="column"]:last-child {
+    float: left; }
+
+  /* line 169, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  [class*="column"] + [class*="column"].end {
+    float: right; }
+
+  /* line 172, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .column.xxlarge-centered,
+  .columns.xxlarge-centered,
+  #stack-list li.xxlarge-centered,
+  #theme-list li > div.xxlarge-centered,
+  ul#docs-list > li.xxlarge-centered {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    float: none !important; }
+
+  /* line 175, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .column.xxlarge-uncentered,
+  .columns.xxlarge-uncentered,
+  #stack-list li.xxlarge-uncentered,
+  #theme-list li > div.xxlarge-uncentered,
+  ul#docs-list > li.xxlarge-uncentered {
+    margin-right: 0;
+    margin-left: 0;
+    float: right !important; }
+
+  /* line 182, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_grid.scss */
+  .column.xxlarge-uncentered.opposite,
+  .columns.xxlarge-uncentered.opposite,
+  #stack-list li.xxlarge-uncentered.opposite,
+  #theme-list li > div.xxlarge-uncentered.opposite,
+  ul#docs-list > li.xxlarge-uncentered.opposite {
+    float: left !important; } }
+/* line 23, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_accordion.scss */
+.accordion {
+  *zoom: 1;
+  margin-bottom: 0; }
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+  .accordion:before, .accordion:after {
+    content: " ";
+    display: table; }
+  /* line 166, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+  .accordion:after {
+    clear: both; }
+  /* line 25, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_accordion.scss */
+  .accordion dd {
+    display: block;
+    margin-bottom: 0 !important; }
+    /* line 28, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_accordion.scss */
+    .accordion dd.active a {
+      background: #e7e7e7; }
+    /* line 29, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_accordion.scss */
+    .accordion dd > a {
+      background: #efefef;
+      color: #222222;
+      padding: 1rem;
+      display: block;
+      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 1rem; }
+      /* line 36, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_accordion.scss */
+      .accordion dd > a:hover {
+        background: #e2e2e2; }
+  /* line 39, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_accordion.scss */
+  .accordion .content, .accordion ul#downloads > li .notes, ul#downloads > li .accordion .notes, .accordion ul#downloads > li table ul[id$="-download"], ul#downloads > li table .accordion ul[id$="-download"], .accordion #download > div ul[id$="-download"], #download > div .accordion ul[id$="-download"] {
+    display: none;
+    padding: 0.9375rem; }
+    /* line 42, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_accordion.scss */
+    .accordion .content.active, .accordion ul#downloads > li .active.notes, ul#downloads > li .accordion .active.notes, .accordion ul#downloads > li table ul.active[id$="-download"], ul#downloads > li table .accordion ul.active[id$="-download"], .accordion #download > div ul.active[id$="-download"], #download > div .accordion ul.active[id$="-download"] {
+      display: block;
+      background: white; }
+
+/* line 102, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
+.alert-box, .sendgrid-subscription-widget .response.sent, .sendgrid-subscription-widget .response.error, .sendgrid-subscription-widget .response.success {
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  font-weight: normal;
+  margin-bottom: 1.25rem;
+  position: relative;
+  padding: 0.875rem 1.5rem 0.875rem 0.875rem;
+  font-size: 0.8125rem;
+  background-color: #008cba;
+  border-color: #0079a1;
+  color: white; }
+  /* line 105, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
+  .alert-box .close, .sendgrid-subscription-widget .response.sent .close, .sendgrid-subscription-widget .response.error .close, .sendgrid-subscription-widget .response.success .close {
+    font-size: 1.375rem;
+    padding: 9px 6px 4px;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.6875rem;
+    left: 0.25rem;
+    color: #333333;
+    opacity: 0.3; }
+    /* line 87, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
+    .alert-box .close:hover, .sendgrid-subscription-widget .response.sent .close:hover, .sendgrid-subscription-widget .response.error .close:hover, .sendgrid-subscription-widget .response.success .close:hover, .alert-box .close:focus, .sendgrid-subscription-widget .response.sent .close:focus, .sendgrid-subscription-widget .response.error .close:focus, .sendgrid-subscription-widget .response.success .close:focus {
+      opacity: 0.5; }
+  /* line 107, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
+  .alert-box.radius, .sendgrid-subscription-widget .radius.response.sent, .sendgrid-subscription-widget .radius.response.error, .sendgrid-subscription-widget .radius.response.success {
+    -webkit-border-radius: 3px;
+    border-radius: 3px; }
+  /* line 108, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
+  .alert-box.round, .sendgrid-subscription-widget .round.response.sent, .sendgrid-subscription-widget .round.response.error, .sendgrid-subscription-widget .round.response.success {
+    -webkit-border-radius: 1000px;
+    border-radius: 1000px; }
+  /* line 110, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
+  .alert-box.success, .sendgrid-subscription-widget .success.response {
+    background-color: #5e8949;
+    border-color: #537840;
+    color: white; }
+  /* line 111, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
+  .alert-box.alert, .sendgrid-subscription-widget .alert.response.sent, .sendgrid-subscription-widget .alert.response.error, .sendgrid-subscription-widget .alert.response.success {
+    background-color: #f04124;
+    border-color: #ea2f10;
+    color: white; }
+  /* line 112, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
+  .alert-box.secondary, .sendgrid-subscription-widget .secondary.response.sent, .sendgrid-subscription-widget .secondary.response.error, .sendgrid-subscription-widget .secondary.response.success {
+    background-color: #e7e7e7;
+    border-color: #dadada;
+    color: #4e4e4e; }
+  /* line 113, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
+  .alert-box.warning, .sendgrid-subscription-widget .warning.response.sent, .sendgrid-subscription-widget .warning.response.error, .sendgrid-subscription-widget .warning.response.success {
+    background-color: #f08a24;
+    border-color: #ea7d10;
+    color: white; }
+  /* line 114, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
+  .alert-box.info, .sendgrid-subscription-widget .info.response.sent, .sendgrid-subscription-widget .info.response.error, .sendgrid-subscription-widget .info.response.success {
+    background-color: #a0d3e8;
+    border-color: #8bc9e3;
+    color: #4e4e4e; }
+
+/* line 69, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+[class*="block-grid-"] {
+  display: block;
+  padding: 0;
+  margin: 0 -0.625rem;
+  *zoom: 1; }
+  /* line 165, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+  [class*="block-grid-"]:before, [class*="block-grid-"]:after {
+    content: " ";
+    display: table; }
+  /* line 166, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
+  [class*="block-grid-"]:after {
+    clear: both; }
+  /* line 35, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  [class*="block-grid-"] > li {
+    display: inline;
+    height: auto;
+    float: right;
+    padding: 0 0.625rem 1.25rem; }
+
+@media only screen {
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-1 > li {
+    width: 100%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .small-block-grid-1 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .small-block-grid-1 > li:nth-of-type(1n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-2 > li {
+    width: 50%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .small-block-grid-2 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .small-block-grid-2 > li:nth-of-type(2n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-3 > li {
+    width: 33.33333%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .small-block-grid-3 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .small-block-grid-3 > li:nth-of-type(3n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-4 > li {
+    width: 25%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .small-block-grid-4 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .small-block-grid-4 > li:nth-of-type(4n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-5 > li {
+    width: 20%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .small-block-grid-5 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .small-block-grid-5 > li:nth-of-type(5n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-6 > li {
+    width: 16.66667%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .small-block-grid-6 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .small-block-grid-6 > li:nth-of-type(6n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-7 > li {
+    width: 14.28571%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .small-block-grid-7 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .small-block-grid-7 > li:nth-of-type(7n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-8 > li {
+    width: 12.5%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .small-block-grid-8 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .small-block-grid-8 > li:nth-of-type(8n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-9 > li {
+    width: 11.11111%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .small-block-grid-9 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .small-block-grid-9 > li:nth-of-type(9n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-10 > li {
+    width: 10%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .small-block-grid-10 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .small-block-grid-10 > li:nth-of-type(10n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-11 > li {
+    width: 9.09091%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .small-block-grid-11 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .small-block-grid-11 > li:nth-of-type(11n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-12 > li {
+    width: 8.33333%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .small-block-grid-12 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .small-block-grid-12 > li:nth-of-type(12n+1) {
+      clear: both; } }
+@media only screen and (min-width: 40.063em) {
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-1 > li {
+    width: 100%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .medium-block-grid-1 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .medium-block-grid-1 > li:nth-of-type(1n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-2 > li {
+    width: 50%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .medium-block-grid-2 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .medium-block-grid-2 > li:nth-of-type(2n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-3 > li {
+    width: 33.33333%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .medium-block-grid-3 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .medium-block-grid-3 > li:nth-of-type(3n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-4 > li {
+    width: 25%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .medium-block-grid-4 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .medium-block-grid-4 > li:nth-of-type(4n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-5 > li {
+    width: 20%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .medium-block-grid-5 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .medium-block-grid-5 > li:nth-of-type(5n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-6 > li {
+    width: 16.66667%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .medium-block-grid-6 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .medium-block-grid-6 > li:nth-of-type(6n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-7 > li {
+    width: 14.28571%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .medium-block-grid-7 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .medium-block-grid-7 > li:nth-of-type(7n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-8 > li {
+    width: 12.5%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .medium-block-grid-8 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .medium-block-grid-8 > li:nth-of-type(8n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-9 > li {
+    width: 11.11111%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .medium-block-grid-9 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .medium-block-grid-9 > li:nth-of-type(9n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-10 > li {
+    width: 10%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .medium-block-grid-10 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .medium-block-grid-10 > li:nth-of-type(10n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-11 > li {
+    width: 9.09091%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .medium-block-grid-11 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .medium-block-grid-11 > li:nth-of-type(11n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-12 > li {
+    width: 8.33333%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .medium-block-grid-12 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .medium-block-grid-12 > li:nth-of-type(12n+1) {
+      clear: both; } }
+@media only screen and (min-width: 64.063em) {
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-1 > li {
+    width: 100%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .large-block-grid-1 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .large-block-grid-1 > li:nth-of-type(1n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-2 > li {
+    width: 50%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .large-block-grid-2 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .large-block-grid-2 > li:nth-of-type(2n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-3 > li {
+    width: 33.33333%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .large-block-grid-3 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .large-block-grid-3 > li:nth-of-type(3n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-4 > li {
+    width: 25%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .large-block-grid-4 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .large-block-grid-4 > li:nth-of-type(4n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-5 > li {
+    width: 20%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .large-block-grid-5 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .large-block-grid-5 > li:nth-of-type(5n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-6 > li {
+    width: 16.66667%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .large-block-grid-6 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .large-block-grid-6 > li:nth-of-type(6n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-7 > li {
+    width: 14.28571%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .large-block-grid-7 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .large-block-grid-7 > li:nth-of-type(7n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-8 > li {
+    width: 12.5%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .large-block-grid-8 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .large-block-grid-8 > li:nth-of-type(8n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-9 > li {
+    width: 11.11111%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .large-block-grid-9 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .large-block-grid-9 > li:nth-of-type(9n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-10 > li {
+    width: 10%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .large-block-grid-10 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .large-block-grid-10 > li:nth-of-type(10n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-11 > li {
+    width: 9.09091%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .large-block-grid-11 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .large-block-grid-11 > li:nth-of-type(11n+1) {
+      clear: both; }
+
+  /* line 44, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-12 > li {
+    width: 8.33333%;
+    padding: 0 0.625rem 1.25rem; }
+    /* line 48, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .large-block-grid-12 > li:nth-of-type(n) {
+      clear: none; }
+    /* line 49, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_block-grid.scss */
+    .large-block-grid-12 > li:nth-of-type(12n+1) {
+      clear: both; } }
+/* line 114, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+.breadcrumbs {
+  display: block;
+  padding: 0.5625rem 0.875rem 0.5625rem;
+  overflow: hidden;
+  margin-right: 0;
+  list-style: none;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #f4f4f4;
+  border-color: #dadada;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; }
+  /* line 118, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+  .breadcrumbs > * {
+    margin: 0;
+    float: right;
+    font-size: 0.6875rem;
+    text-transform: uppercase; }
+    /* line 62, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+    .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
+      text-decoration: underline; }
+    /* line 65, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+    .breadcrumbs > * a,
+    .breadcrumbs > * span {
+      text-transform: uppercase;
+      color: #008cba; }
+    /* line 71, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+    .breadcrumbs > *.current {
+      cursor: default;
+      color: #333333; }
+      /* line 74, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+      .breadcrumbs > *.current a {
+        cursor: default;
+        color: #333333; }
+      /* line 80, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+      .breadcrumbs > *.current:hover, .breadcrumbs > *.current:hover a, .breadcrumbs > *.current:focus, .breadcrumbs > *.current:focus a {
+        text-decoration: none; }
+    /* line 84, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+    .breadcrumbs > *.unavailable {
+      color: #999999; }
+      /* line 86, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+      .breadcrumbs > *.unavailable a {
+        color: #999999; }
+      /* line 91, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+      .breadcrumbs > *.unavailable:hover, .breadcrumbs > *.unavailable:hover a, .breadcrumbs > *.unavailable:focus,
+      .breadcrumbs > *.unavailable a:focus {
+        text-decoration: none;
+        color: #999999;
+        cursor: default; }
+    /* line 98, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+    .breadcrumbs > *:before {
+      content: "/";
+      color: #aaaaaa;
+      margin: 0 0.75rem;
+      position: relative;
+      top: 1px; }
+    /* line 106, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+    .breadcrumbs > *:first-child:before {
+      content: " ";
+      margin: 0; }
+
+/* line 197, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+button, .button, .sendgrid-subscription-widget input[type="submit"] {
+  cursor: pointer;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-right: 2rem;
+  font-size: 1rem;
+  /*     @else                            { font-size: $padding - rem-calc(2); } */
+  background-color: #008cba;
+  border-color: #0079a1;
+  color: white;
+  -webkit-transition: background-color 300ms ease-out;
+  -moz-transition: background-color 300ms ease-out;
+  transition: background-color 300ms ease-out;
+  padding-top: 1.0625rem;
+  padding-bottom: 1rem;
+  -webkit-appearance: none;
+  border: none;
+  font-weight: normal !important; }
+  /* line 142, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  button:hover, button:focus, .button:hover, .sendgrid-subscription-widget input[type="submit"]:hover, .button:focus, .sendgrid-subscription-widget input[type="submit"]:focus {
+    background-color: #0079a1; }
+  /* line 153, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  button:hover, button:focus, .button:hover, .sendgrid-subscription-widget input[type="submit"]:hover, .button:focus, .sendgrid-subscription-widget input[type="submit"]:focus {
+    color: white; }
+  /* line 205, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  button.secondary, .button.secondary, .sendgrid-subscription-widget input.secondary[type="submit"] {
+    background-color: #e7e7e7;
+    border-color: #dadada;
+    color: #333333; }
+    /* line 142, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    button.secondary:hover, button.secondary:focus, .button.secondary:hover, .sendgrid-subscription-widget input.secondary[type="submit"]:hover, .button.secondary:focus, .sendgrid-subscription-widget input.secondary[type="submit"]:focus {
+      background-color: #dadada; }
+    /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    button.secondary:hover, button.secondary:focus, .button.secondary:hover, .sendgrid-subscription-widget input.secondary[type="submit"]:hover, .button.secondary:focus, .sendgrid-subscription-widget input.secondary[type="submit"]:focus {
+      color: #333333; }
+  /* line 206, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  button.success, .button.success, .sendgrid-subscription-widget input.success[type="submit"] {
+    background-color: #5e8949;
+    border-color: #537840;
+    color: white; }
+    /* line 142, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    button.success:hover, button.success:focus, .button.success:hover, .sendgrid-subscription-widget input.success[type="submit"]:hover, .button.success:focus, .sendgrid-subscription-widget input.success[type="submit"]:focus {
+      background-color: #537840; }
+    /* line 153, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    button.success:hover, button.success:focus, .button.success:hover, .sendgrid-subscription-widget input.success[type="submit"]:hover, .button.success:focus, .sendgrid-subscription-widget input.success[type="submit"]:focus {
+      color: white; }
+  /* line 207, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  button.alert, .button.alert, .sendgrid-subscription-widget input.alert[type="submit"] {
+    background-color: #f04124;
+    border-color: #ea2f10;
+    color: white; }
+    /* line 142, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    button.alert:hover, button.alert:focus, .button.alert:hover, .sendgrid-subscription-widget input.alert[type="submit"]:hover, .button.alert:focus, .sendgrid-subscription-widget input.alert[type="submit"]:focus {
+      background-color: #ea2f10; }
+    /* line 153, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    button.alert:hover, button.alert:focus, .button.alert:hover, .sendgrid-subscription-widget input.alert[type="submit"]:hover, .button.alert:focus, .sendgrid-subscription-widget input.alert[type="submit"]:focus {
+      color: white; }
+  /* line 209, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  button.large, .button.large, .sendgrid-subscription-widget input.large[type="submit"] {
+    padding-top: 1.125rem;
+    padding-left: 2.25rem;
+    padding-bottom: 1.1875rem;
+    padding-right: 2.25rem;
+    font-size: 1.25rem;
+    /*     @else                            { font-size: $padding - rem-calc(2); } */ }
+  /* line 210, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  button.small, .button.small, .sendgrid-subscription-widget input[type="submit"] {
+    padding-top: 0.875rem;
+    padding-left: 1.75rem;
+    padding-bottom: 0.9375rem;
+    padding-right: 1.75rem;
+    font-size: 0.8125rem;
+    /*     @else                            { font-size: $padding - rem-calc(2); } */ }
+  /* line 211, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  button.tiny, .button.tiny, .sendgrid-subscription-widget input.tiny[type="submit"] {
+    padding-top: 0.625rem;
+    padding-left: 1.25rem;
+    padding-bottom: 0.6875rem;
+    padding-right: 1.25rem;
+    font-size: 0.6875rem;
+    /*     @else                            { font-size: $padding - rem-calc(2); } */ }
+  /* line 212, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  button.expand, .button.expand, .sendgrid-subscription-widget input.expand[type="submit"] {
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%; }
+  /* line 214, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  button.left-align, .button.left-align, .sendgrid-subscription-widget input.left-align[type="submit"] {
+    text-align: left;
+    text-indent: 0.75rem; }
+  /* line 215, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  button.right-align, .button.right-align, .sendgrid-subscription-widget input.right-align[type="submit"] {
+    text-align: right;
+    padding-right: 0.75rem; }
+  /* line 217, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  button.radius, .button.radius, .sendgrid-subscription-widget input.radius[type="submit"] {
+    -webkit-border-radius: 3px;
+    border-radius: 3px; }
+  /* line 218, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  button.round, .button.round, .sendgrid-subscription-widget input.round[type="submit"] {
+    -webkit-border-radius: 1000px;
+    border-radius: 1000px; }
+  /* line 220, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  button.disabled, button[disabled], .button.disabled, .sendgrid-subscription-widget input.disabled[type="submit"], .button[disabled], .sendgrid-subscription-widget input[disabled][type="submit"] {
+    background-color: #008cba;
+    border-color: #0079a1;
+    color: white;
+    cursor: default;
+    opacity: 0.7;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+    /* line 142, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .sendgrid-subscription-widget input.disabled[type="submit"]:hover, .button.disabled:focus, .sendgrid-subscription-widget input.disabled[type="submit"]:focus, .button[disabled]:hover, .sendgrid-subscription-widget input[disabled][type="submit"]:hover, .button[disabled]:focus, .sendgrid-subscription-widget input[disabled][type="submit"]:focus {
+      background-color: #0079a1; }
+    /* line 153, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .sendgrid-subscription-widget input.disabled[type="submit"]:hover, .button.disabled:focus, .sendgrid-subscription-widget input.disabled[type="submit"]:focus, .button[disabled]:hover, .sendgrid-subscription-widget input[disabled][type="submit"]:hover, .button[disabled]:focus, .sendgrid-subscription-widget input[disabled][type="submit"]:focus {
+      color: white; }
+    /* line 166, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .sendgrid-subscription-widget input.disabled[type="submit"]:hover, .button.disabled:focus, .sendgrid-subscription-widget input.disabled[type="submit"]:focus, .button[disabled]:hover, .sendgrid-subscription-widget input[disabled][type="submit"]:hover, .button[disabled]:focus, .sendgrid-subscription-widget input[disabled][type="submit"]:focus {
+      background-color: #008cba; }
+    /* line 221, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .sendgrid-subscription-widget input.disabled.secondary[type="submit"], .button[disabled].secondary, .sendgrid-subscription-widget input[disabled].secondary[type="submit"] {
+      background-color: #e7e7e7;
+      border-color: #dadada;
+      color: #333333;
+      cursor: default;
+      opacity: 0.7;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+      /* line 142, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+      button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .sendgrid-subscription-widget input.disabled.secondary[type="submit"]:hover, .button.disabled.secondary:focus, .sendgrid-subscription-widget input.disabled.secondary[type="submit"]:focus, .button[disabled].secondary:hover, .sendgrid-subscription-widget input[disabled].secondary[type="submit"]:hover, .button[disabled].secondary:focus, .sendgrid-subscription-widget input[disabled].secondary[type="submit"]:focus {
+        background-color: #dadada; }
+      /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+      button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .sendgrid-subscription-widget input.disabled.secondary[type="submit"]:hover, .button.disabled.secondary:focus, .sendgrid-subscription-widget input.disabled.secondary[type="submit"]:focus, .button[disabled].secondary:hover, .sendgrid-subscription-widget input[disabled].secondary[type="submit"]:hover, .button[disabled].secondary:focus, .sendgrid-subscription-widget input[disabled].secondary[type="submit"]:focus {
+        color: #333333; }
+      /* line 166, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+      button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .sendgrid-subscription-widget input.disabled.secondary[type="submit"]:hover, .button.disabled.secondary:focus, .sendgrid-subscription-widget input.disabled.secondary[type="submit"]:focus, .button[disabled].secondary:hover, .sendgrid-subscription-widget input[disabled].secondary[type="submit"]:hover, .button[disabled].secondary:focus, .sendgrid-subscription-widget input[disabled].secondary[type="submit"]:focus {
+        background-color: #e7e7e7; }
+    /* line 222, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foun
